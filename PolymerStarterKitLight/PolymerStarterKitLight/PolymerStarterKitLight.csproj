@@ -1045,6 +1045,7 @@
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\WebApiConfig.cs" />
+    <Compile Include="Attributes\ElementAttribute.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -1413,6 +1414,7 @@
     <Content Include="bower_components\webcomponentsjs\build.log" />
     <Content Include="bower_components\webcomponentsjs\package.json" />
     <Content Include="bower_components\webcomponentsjs\README.md" />
+    <Content Include="Views\Home\Elements.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
